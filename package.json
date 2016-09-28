@@ -1,0 +1,24 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice (FCC challenge)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eXConf/url-shortener.git"
+  },
+  "author": "eXConf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eXConf/url-shortener/issues"
+  },
+  "homepage": "https://github.com/eXConf/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "valid-url": "^1.0.9"
+  }
+}
